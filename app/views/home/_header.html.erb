@@ -4,11 +4,20 @@
       <div>
         <%= link_to 'Herculean App', root_path, class: "navbar-brand" %>
       </div>
-      <div class="d-flex gap-2">
-        <%= link_to home_about_path, class: "btn btn-sm btn-outline-secondary", role: "button" do %>
+      <div class="d-flex gap-4">
+        <%= link_to home_about_path, class: "btn btn-sm", role: "button" do %>
           About
         <% end %>
-        
+      </div>
+      <div class="d-flex gap-4">
+        <%= link_to friends_path, class: "btn btn-sm", role: "button" do %>
+          Friends
+        <% end %>
+      </div>
+      <div class="d-flex gap-4">
+        <%= link_to new_friend_path, class: "btn btn-sm", role: "button" do %>
+          Add New Friend
+        <% end %>
       </div>
     </div>
     <form class="d-flex" role="search">
