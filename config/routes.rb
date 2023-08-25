@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   # get "/home/index" 
   # This takes you to the webpage ONLY IF you add the extension at the end of the localhost:3000 ex "localhost:3000/home/index"
   get "/home/about"
